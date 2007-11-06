@@ -4,7 +4,7 @@
 	<artifactId>struts2-ejb3-plugin</artifactId>
 	<packaging>jar</packaging>
 	<name>Struts 2 EJB 3 Plugin</name>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -17,9 +17,9 @@
 		</plugins>
 	</build>
 	<scm>
-		<connection>scm:svn:https://struts2ejb3.googlecode.com/svn/tags/struts2-ejb3-plugin-1.0.0</connection>
-		<developerConnection>scm:svn:https://struts2ejb3.googlecode.com/svn/tags/struts2-ejb3-plugin-1.0.0</developerConnection>
-		<url>http://struts2ejb3.googlecode.com/svn/tags/struts2-ejb3-plugin-1.0.0</url>
+		<connection>scm:svn:https://struts2ejb3.googlecode.com/svn/trunk/</connection>
+		<developerConnection>scm:svn:https://struts2ejb3.googlecode.com/svn/trunk/</developerConnection>
+		<url>http://struts2ejb3.googlecode.com/svn/trunk/</url>
 	</scm>
 	<dependencies>
 		<dependency>
