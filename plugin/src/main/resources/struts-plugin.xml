@@ -8,7 +8,7 @@
 	<package name="struts2ejb3-default" extends="struts-default">
 		<interceptors>
 			<interceptor name="ejb3"
-				class="com.googlecode.struts2ejb3.EJB3Interceptor" />
+				class="com.googlecode.struts2ejb3.InjectEJBInterceptor" />
 		</interceptors>
 	</package>
 </struts>

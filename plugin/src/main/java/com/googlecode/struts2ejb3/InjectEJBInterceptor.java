@@ -12,7 +12,7 @@ import com.opensymphony.xwork2.interceptor.Interceptor;
  * Looks for any fields annotated with the InjectEJB annotation and injects the
  * given EJB into that field.
  */
-public class EJB3Interceptor extends AbstractInterceptor implements Interceptor {
+public class InjectEJBInterceptor extends AbstractInterceptor implements Interceptor {
 
 	public String intercept(ActionInvocation actionInvocation) throws Exception {
 		Object action = actionInvocation.getAction();
